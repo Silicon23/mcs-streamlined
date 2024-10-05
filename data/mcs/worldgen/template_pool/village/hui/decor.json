@@ -1,0 +1,78 @@
+{
+    "name": "mcs:village/hui/decor",
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "mcs:village/hui/plains_tree_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 4
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "mcs:village/hui/plains_lamp_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 2
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mcs:village/hui/hui_flower_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mcs:village/hui/hui_flower_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mcs:village/hui/hui_flower_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "mcs:village/hui/hui_flower_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 8,
+        "element": {
+          "location": "mcs:village/hui/hui_pond_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 8,
+        "element": {
+          "location": "mcs:village/hui/hui_pond_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }

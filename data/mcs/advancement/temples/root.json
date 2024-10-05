@@ -1,0 +1,206 @@
+{
+    "parent": "mcs:root",
+    "criteria": {
+      "cherry": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:temple_cherry"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "desert": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:temple_desert"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "forest": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:temple_forest"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "hills": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:temple_hills"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "megaplains": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:temple_megaplains"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "plains": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:temple_plains"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "savanna": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:temple_savanna"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "snow": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:temple_snow"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "snowyplains": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:temple_snowyplains"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "shrine": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "mcs:shrine"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "icon": {
+        "id": "minecraft:lantern"
+      },
+      "title": "All Temples",
+      "description": "A majestic cluster of temples resonating with cultural and spiritual harmony.",
+      "frame": "challenge",
+      "announce_to_chat": true
+    },
+    "requirements": [
+      [
+        "cherry"
+      ],
+      [
+        "desert"
+      ],
+      [
+        "forest"
+      ],
+      [
+        "hills"
+      ],
+      [
+        "megaplains"
+      ],
+      [
+        "plains"
+      ],
+      [
+        "savanna"
+      ],
+      [
+        "snow"
+      ],
+      [
+        "snowyplains"
+      ]
+    ],
+    "rewards": {
+      "experience": 500
+    }
+  }

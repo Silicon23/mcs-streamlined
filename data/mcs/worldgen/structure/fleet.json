@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:jigsaw",
+    "start_pool": "mcs:fleet/bulk",
+    "size": 10,
+    "max_distance_from_center": 116,
+    "biomes": "#minecraft:is_ocean",
+    "step": "surface_structures",
+    "liquid_settings": "ignore_waterlogging",
+    "start_height": {
+        "absolute": 59
+    },
+    "use_expansion_hack": false,
+    "terrain_adaptation": "none",
+    "spawn_overrides": {
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "structures": [
+      {
+        "structure": "mcs:village_hui",
+        "weight": 1
+      },
+      {
+        "structure": "mcs:village_yurt",
+        "weight": 1
+      },
+      {
+        "structure": "mcs:grotto",
+        "weight": 1
+      },
+      {
+        "structure": "mcs:village_ganlan",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "salt": 183253140,
+      "type": "minecraft:random_spread",
+      "spacing": 28,
+      "separation": 8,
+      "exclusion_zone": {
+        "chunk_count": 16,
+        "other_set": "mcs:buddha"
+      }
+    }
+}

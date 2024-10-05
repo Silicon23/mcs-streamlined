@@ -1,0 +1,22 @@
+{
+    "structures": [
+        {
+          "structure": "mcs:castle",
+          "weight": 1
+        },
+        {
+          "structure": "mcs:sky_palace",
+          "weight": 1
+        },
+        {
+          "structure": "mcs:tower",
+          "weight": 1
+        }
+      ],
+      "placement": {
+        "salt": 5439532,
+        "type": "minecraft:random_spread",
+        "spacing": 100,
+        "separation": 80
+      }
+    }
