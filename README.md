@@ -1,3 +1,7 @@
+# This repository is no longer maintained
+
+This version of the datapack has been committed to the main repository [here](https://github.com/Silicon23/MoreChineseStructures/commit/ee20437d8b97b8435a835f5fae653b7a830fa7d4). Further changes will also be reflected in the main repo.
+
 # MCS-Streamlined
 
 <img src='./images/MoreChineseStructures.jpg'>
